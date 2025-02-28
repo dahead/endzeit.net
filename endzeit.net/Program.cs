@@ -101,13 +101,12 @@ class Program
                     {
                         throw new Exception("Failed to start the command.");
                     }
-
                     process.WaitForExit();
 
                     // Print the output of the command
-                    Console.WriteLine($"Command Output:\n{process.StandardOutput.ReadToEnd()}");
-                    Console.WriteLine($"Command Error (if any):\n{process.StandardError.ReadToEnd()}");
-                    Console.WriteLine($"Command exited with code {process.ExitCode}");
+                    // Console.WriteLine($"Command Output:\n{process.StandardOutput.ReadToEnd()}");
+                    // Console.WriteLine($"Command Error (if any):\n{process.StandardError.ReadToEnd()}");
+                    // Console.WriteLine($"Command exited with code {process.ExitCode}");
                 }
                 catch (Exception ex)
                 {
