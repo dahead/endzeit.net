@@ -28,3 +28,4 @@
 /home/dh/RiderProjects/endzeit.net/endzeit.net/obj/Debug/net9.0/endzeit.net.pdb
 /home/dh/RiderProjects/endzeit.net/endzeit.net/obj/Debug/net9.0/endzeit.net.genruntimeconfig.cache
 /home/dh/RiderProjects/endzeit.net/endzeit.net/obj/Debug/net9.0/ref/endzeit.net.dll
+/home/dh/RiderProjects/endzeit.net/endzeit.net/obj/Debug/net9.0/endzeit.net.sourcelink.json
