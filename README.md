@@ -5,8 +5,9 @@ endzeit displays the remaining time in a progress bar up until to a spcific time
 ### Usage
 
 ```
-./endzeit --time 21:30
-./endzeit --date 31.12.25 --time 23:59:59
+./endzeit.net --help
+./endzeit.net --time 21:30
+./endzeit.net --date 31.12.25 --time 23:59:59
 ```
 
 ### Output
