@@ -183,7 +183,7 @@ class Program
     /// </summary>
     private static DateTime ParseDateWithDefaults(string date)
     {
-        if (DateTime.TryParseExact(date, new[] { "yyyy-MM-dd", "dd.MM.yyyy", "MM/yyyy", "yyyy" },
+        if (DateTime.TryParseExact(date, new[] { "yyyy-MM-dd", "dd.MM.yyyy", "MM/yyyy", "MM.yyyy", "yyyy" },
                 CultureInfo.InvariantCulture, DateTimeStyles.None, out var parsedDate))
         {
             if (date.Length == 4) // Year only
@@ -207,7 +207,7 @@ class Program
     /// </summary>
     private static TimeSpan ParseTimeWithDefaults(string time)
     {
-        if (TimeSpan.TryParseExact(time, new[] { "hh\\:mm", "hh\\:mm\\:ss" },
+        if (TimeSpan.TryParseExact(time, new[] { "hh\\:mm", "hh\\:mm\\:ss", "hh" },
                 CultureInfo.InvariantCulture, out var parsedTime))
         {
             if (time.Length == 5) // Hours and Minutes only
